@@ -28,6 +28,11 @@ jupyter notebook
 ## Структура
 ```
 .
+├─ Audio_files/
+│  └─ Major/
+│     └─ Major_{i}.wav          # Набор данных из мажорных аккордов
+│  └─ Minor/
+│     └─ Minor_{i}.wav          # Набор данных из минорных аккордов
 ├─ notebooks/
 │  └─ Chord_classifier.ipynb    # оригинальный notebook
 ├─ src/
